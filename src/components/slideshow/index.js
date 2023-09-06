@@ -27,11 +27,15 @@ const Slideshow = () => {
 
     return (
       <div className="slide" style={slideStyle} key={index}>
+
+<div> <img src={slide.imgSrc} alt={slide.alt} /></div>
         <div className="content">
           <h1>{slide.title}</h1>
           <p>{slide.description}</p>
+          
         </div>
-        <img src={slide.imgSrc} alt={slide.alt} />
+       
+       
       </div>
     );
   };

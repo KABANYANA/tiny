@@ -44,15 +44,46 @@
   }
   
   /* Media Queries */
-  @media (max-width: 768px) {
+  @media (max-width: 1600px) {
     .role-content {
       font-size: 20px;
+
     }
-  
+   .planning {
+    background-color: rgb(4, 59, 4);
+    width: 20%;
+    color: white;
+    margin-left: 30%;
+    text-align: center;
+    border-radius: 100%;
+  }
     .planning,
     .testing-cleaning .testing,
     .testing-cleaning .cleaning {
       width: 40%;
+    }
+  
+    .role img {
+      width: 50%;
+    }
+  
+  }
+  @media (max-width: 768px) {
+    .role-content {
+      font-size: 20px;
+    }
+    .planning {
+      background-color: rgb(4, 59, 4);
+      width: 20%;
+      color: white;
+      margin-left: 18%;
+      text-align: center;
+      border-radius: 100%;
+    }
+    .planning,
+    .testing-cleaning .testing,
+    .testing-cleaning .cleaning {
+      width: 70%;
     }
   
     .role img {
@@ -64,11 +95,18 @@
     .role-content {
       font-size: 18px;
     }
-  
+    .planning {
+      background-color: rgb(4, 59, 4);
+      width: 20%;
+      color: white;
+      margin-left: 10%;
+      text-align: center;
+      border-radius: 100%;
+    }
     .planning,
     .testing-cleaning .testing,
     .testing-cleaning .cleaning {
-      width: 60%;
+      width: 90%;
     }
   
     .role img {
